@@ -6,8 +6,8 @@ import Card from "./components/Card";
 function App() {
     return (
         <>
-            <div className="grid justify-items-center w-[100%] h-[100vh]">
-                <div>
+            <div className="grid justify-items-center w-[100%] h-[auto]">
+                <div className="align-items-center h-[auto] content-center">
                     <Title />
                     <Card />
                 </div>
